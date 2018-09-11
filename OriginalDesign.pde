@@ -1,6 +1,6 @@
 int x = 10; int y = 10;int counter = 0;
 float[] colors = new float[225];float[] heights = new float[75];
-\
+
 void setup(){
   size(500,500);
   frameRate(30);
