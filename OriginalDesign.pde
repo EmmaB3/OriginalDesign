@@ -33,7 +33,6 @@ void bookshelf(){
     rect(130, a, 250,10);
     for(int b = 130; b < 130 + 250; b += 10){
       int index = Math.round((((a - 160 - 50)/50) + 1) * (3.0/10.0)*(b - 130));
-      System.out.println("A: " + a + " B: " + b + " ind: " + index);
       if(counter == 0){
         colors[index] = random(225);
         colors[index + 1] = random(225);
